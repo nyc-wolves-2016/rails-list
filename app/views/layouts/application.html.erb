@@ -9,6 +9,14 @@
   </head>
 
   <body>
+
+  <ul class="sidenav">
+    <!-- <li><a class="active" href="#home">Home</a></li> -->
+    <li class="active"><%= link_to 'Home', root_path %></li>
+    <!-- <li><a href="#news">Create New Article</a></li> -->
+  </ul>
+  <div class="content">
     <%= yield %>
+  </div>
   </body>
 </html>

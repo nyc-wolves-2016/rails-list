@@ -1,0 +1,7 @@
+<% @categories.each do |category| %>
+  <article class="content-wrapper">
+    <p>
+      <%=  link_to category.title, category_articles_path(category)%>
+    </p>
+  </article>
+<% end %>
