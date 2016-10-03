@@ -1,0 +1,17 @@
+// Place all the styles related to the Categories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content-wrapper {
+  padding: 40px 40px;
+  margin: 10px;
+  display: block;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+.content-wrapper p {
+  text-align: center;
+}
+.content-wrapper p a {
+  text-decoration: none;
+}
